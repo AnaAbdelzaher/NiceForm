@@ -1,0 +1,41 @@
+body {
+	background: #ddd;
+	font-family: arial,tahoma;
+}
+fieldset{
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin:20px auto;
+	width: 500px;
+}
+legend{
+	background: #ddd;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: black;
+
+}
+label{
+	display: block;
+}
+label ,input ,textarea{
+	margin-bottom: 10px;
+}
+input["text"],input["password"],input["email"]{
+	display: block;
+	padding: 8px;
+	width: 400px;
+}
+hr{
+	border: 2px solid #eee;
+}
+select{
+	padding: 3px;
+}
+textarea{
+	
+	height: 200px;
+	width: 400px;
+	display: block;
+}
